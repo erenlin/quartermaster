@@ -37,6 +37,7 @@ body {
 }
 .navbar-brand {
   color: #fff; /* This sets the color to white */
+  vertical-align: top;
 }
 
 /******************************************************************************/
@@ -46,13 +47,18 @@ body {
 #index-login {
   position: relative;
   width: 100%;
+
+  min-width: 979px;
 }
 
 #index-login img {
+
   display: block;
   width: 100%;
   height: auto;
   position: static;
+
+  background-size: cover;
 }
 
 #index-login_container {
@@ -70,19 +76,17 @@ body {
 #index-login_container_box {
   display: flex;
   flex-direction: column;
-  width: 57.5%;
-  height: 87.5%;
+  width: 300px;
+  height: 500px;
   padding: 1rem;
   background-color: #ffffffDD;
   border-radius: 1rem;
   box-sizing: border-box;
 }
 
-.login-row {
-  flex: 1;
-  padding: 1rem;
-  box-sizing: border-box;
-}
+
+
+
 
 /******************************************************************************/
 /*    Footer Styles                                                           */
