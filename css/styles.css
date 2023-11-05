@@ -64,16 +64,16 @@ body {
   height: 100%;
   align-items: center;
   justify-content: center;
-  background-color: rgba(255, 0, 255, 0.5);
+  background-color: rgba(255, 0, 255, 0.2);
 }
 
 #index-login_container_box {
   display: flex;
   flex-direction: column;
-  width: 45%;
-  height: 70%;
+  width: 57.5%;
+  height: 87.5%;
   padding: 1rem;
-  background-color: white;
+  background-color: #ffffffDD;
   border-radius: 1rem;
   box-sizing: border-box;
 }
