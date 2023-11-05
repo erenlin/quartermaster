@@ -31,47 +31,12 @@ body {
 /*    NavBar Styles                                                           */
 /******************************************************************************/
 
-/* Reset list styles and add background */
-.navbar ul {
-  background-color: #4169e1;
-  color: white;
-  overflow: hidden;
-  list-style: none;
+.navbar-custom {
+  background-color: #4169e1 ; 
+  
 }
-
-/* Style for all list items */
-.navbar li {
-  float: left; /* For left-aligned items */
-}
-
-.navbar li.right {
-  float: right; /* For the last item on the right */
-}
-
-/* Navbar links */
-.navbar li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Logo styles */
-.navbar li.logo {
-  font-size: 1.2em;
-  font-weight: bold;
-}
-
-/* Change the link color on hover */
-.navbar li a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Style for the active link */
-.navbar li a.active {
-  background-color: #4CAF50;
+.navbar-brand {
+  color: #fff; /* This sets the color to white */
 }
 
 /******************************************************************************/
@@ -124,7 +89,7 @@ body {
 /******************************************************************************/
 
 .footer {
-  background-color: #333;
+  background-color: #4169e1;
   color: white;
   text-align: center;
   padding: 10px;
